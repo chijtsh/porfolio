@@ -1,0 +1,161 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
+body {
+  background-color: white;
+  color: #1b4332;
+  padding-top: 70px;
+}
+
+.navbar {
+  background-color: #2d6a4f;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+}
+
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.navbar .nav-link {
+  color: white;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #d8f3dc;
+}
+
+.navbar .dropdown-menu {
+  background-color: white;
+  border: 1px solid #95d5b2;
+  z-index: 1050;
+}
+
+.navbar .dropdown-item {
+  color: #2d6a4f;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #d8f3dc;
+  color: #1b4332;
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+
+h1, h2, h3, h4, h5 {
+  color: #2d6a4f;
+}
+
+.btn-success {
+  background-color: #2d6a4f;
+  border-color: #2d6a4f;
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #1b4332;
+  border-color: #1b4332;
+  color: white;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #95d5b2;
+  overflow: hidden;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(45, 106, 79, 0.2);
+}
+
+.card-img-top {
+  transition: transform 0.5s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.08);
+}
+
+.card-title {
+  color: #2d6a4f;
+}
+
+.card-text {
+  color: #1b4332;
+}
+
+.carousel-caption h5 {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #1b4332;
+}
+
+.carousel-caption p {
+  color: white;
+  font-size: 17px;
+  text-shadow: 1px 1px 3px #1b4332;
+}
+
+.carousel-indicators button {
+  background-color: #2d6a4f;
+}
+
+#gallery {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#gallery h1 {
+  color: #2d6a4f;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#about h3 {
+  color: #2d6a4f;
+}
+
+#contact {
+  background-color: #f8fff9;
+}
+
+#contact h2 {
+  color: #2d6a4f;
+}
+
+.form-label {
+  color: #1b4332;
+  font-weight: 500;
+}
+
+.form-control {
+  border: 1px solid #95d5b2;
+}
+
+.form-control:focus {
+  border-color: #2d6a4f;
+  box-shadow: 0 0 0 0.2rem rgba(45, 106, 79, 0.15);
+}
