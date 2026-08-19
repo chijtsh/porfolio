@@ -13,7 +13,7 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">GreenNest</a>
         <button
@@ -59,54 +59,54 @@
         </div>
       </div>
     </nav>
-
+ 
     <div class="container" id="home">
-      <p class="fs-1 text-center">GreenNest</p>
-
+      <h1 class="fs-1 text-center">GreenNest</h1>
+ 
       <p class="text-center">
         Discover the beauty of nature and learn why protecting our environment
         matters. Explore forests, mountains, oceans, and wildlife through our
         collection of photographs.
       </p>
-
+ 
       <div class="text-center mt-4">
         <a href="#gallery" class="btn btn-success px-4"> Explore Gallery </a>
       </div>
-
+ 
       <div class="row text-center mt-5">
         <div class="col-12 col-md-6 col-lg-3">
           <div class="card" style="width: 18rem">
-            <img src="forest.jpg" class="card-img-top" alt="..." />
+            <img src="forest.jpg" class="card-img-top" alt="Sunlight filtering through a lush green forest" />
             <div class="card-body">
               <h4>Forests</h4>
               <p class="card-text">Discover the beauty of lush forests.</p>
             </div>
           </div>
         </div>
-
+ 
         <div class="col-12 col-md-6 col-lg-3">
           <div class="card" style="width: 18rem">
-            <img src="mountain.jpg" class="card-img-top" alt="..." />
+            <img src="mountain.jpg" class="card-img-top" alt="Snow-capped mountain peaks against a clear sky" />
             <div class="card-body">
               <h4>Mountains</h4>
               <p class="card-text">Explore breathtaking mountain landscapes.</p>
             </div>
           </div>
         </div>
-
+ 
         <div class="col-12 col-md-6 col-lg-3">
           <div class="card" style="width: 18rem">
-            <img src="ocean.jpg" class="card-img-top" alt="..." />
+            <img src="ocean.jpg" class="card-img-top" alt="Waves rolling across a vast blue ocean" />
             <div class="card-body">
               <h4>Oceans</h4>
               <p class="card-text">Appreciate the beauty of our oceans.</p>
             </div>
           </div>
         </div>
-
+ 
         <div class="col-12 col-md-6 col-lg-3">
           <div class="card" style="width: 18rem">
-            <img src="wildlife.jpg" class="card-img-top" alt="..." />
+            <img src="wildlife.jpg" class="card-img-top" alt="Wild animals in their natural habitat" />
             <div class="card-body">
               <h4>Wildlife</h4>
               <p class="card-text">Learn about animals and biodiversity.</p>
@@ -115,122 +115,124 @@
         </div>
       </div>
     </div>
-
-    <div class="container" id="categories">
-      <div class="container mt-5" id="categories">
-        <h2 class="text-center mb-4">Explore Nature</h2>
-
-        <div id="carouselExampleDark" class="carousel carousel-dark slide">
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide-to="3"
-              aria-label="Slide 4"
-            ></button>
-          </div>
-
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="4000">
-              <img
-                src="for.jpg"
-                class="d-block w-100"
-                alt="Beautiful forest landscape"
-              />
-
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Forests</h5>
-                <p>Discover the beauty and peacefulness of lush forests.</p>
-              </div>
-            </div>
-
-            <div class="carousel-item" data-bs-interval="4000">
-              <img
-                src="moun.jpg"
-                class="d-block w-100"
-                alt="Beautiful mountain landscape"
-              />
-
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Mountains</h5>
-                <p>Explore breathtaking mountains and natural landscapes.</p>
-              </div>
-            </div>
-
-            <div class="carousel-item" data-bs-interval="4000">
-              <img
-                src="oc.jpg"
-                class="d-block w-100"
-                alt="Beautiful ocean landscape"
-              />
-
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Oceans</h5>
-                <p>Appreciate the beauty and importance of our oceans.</p>
-              </div>
-            </div>
-
-            <div class="carousel-item" data-bs-interval="4000">
-              <img
-                src="wild.jpg"
-                class="d-block w-100"
-                alt="Wildlife in nature"
-              />
-
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Wildlife</h5>
-                <p>Learn about animals and the importance of biodiversity.</p>
-              </div>
-            </div>
-          </div>
-
+ 
+    <div class="container mt-5" id="categories">
+      <h2 class="text-center mb-4">Explore Nature</h2>
+ 
+      <div
+        id="carouselExampleDark"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
           <button
-            class="carousel-control-prev"
             type="button"
             data-bs-target="#carouselExampleDark"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
           <button
-            class="carousel-control-next"
             type="button"
             data-bs-target="#carouselExampleDark"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
         </div>
+ 
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="4000">
+            <img
+              src="for.jpg"
+              class="d-block w-100"
+              alt="Beautiful forest landscape"
+            />
+ 
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Forests</h5>
+              <p>Discover the beauty and peacefulness of lush forests.</p>
+            </div>
+          </div>
+ 
+          <div class="carousel-item" data-bs-interval="4000">
+            <img
+              src="moun.jpg"
+              class="d-block w-100"
+              alt="Beautiful mountain landscape"
+            />
+ 
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Mountains</h5>
+              <p>Explore breathtaking mountains and natural landscapes.</p>
+            </div>
+          </div>
+ 
+          <div class="carousel-item" data-bs-interval="4000">
+            <img
+              src="oc.jpg"
+              class="d-block w-100"
+              alt="Beautiful ocean landscape"
+            />
+ 
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Oceans</h5>
+              <p>Appreciate the beauty and importance of our oceans.</p>
+            </div>
+          </div>
+ 
+          <div class="carousel-item" data-bs-interval="4000">
+            <img
+              src="wild.jpg"
+              class="d-block w-100"
+              alt="Wildlife in nature"
+            />
+ 
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Wildlife</h5>
+              <p>Learn about animals and the importance of biodiversity.</p>
+            </div>
+          </div>
+        </div>
+ 
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
-
+ 
     <div class="container" id="gallery">
       <h1>Forests</h1>
       <div class="card-group">
         <div class="card">
-          <img src="tropical.jpg" class="card-img-top" alt="..." />
+          <img src="tropical.jpg" class="card-img-top" alt="Dense tropical rainforest with diverse plant life" />
           <div class="card-body">
             <h5 class="card-title">Tropical</h5>
             <p class="card-text">
@@ -241,7 +243,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="boreal.jpg" class="card-img-top" alt="..." />
+          <img src="boreal.jpg" class="card-img-top" alt="Snow-covered boreal forest with evergreen trees" />
           <div class="card-body">
             <h5 class="card-title">Boreal</h5>
             <p class="card-text">
@@ -252,7 +254,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="temperate.jpg" class="card-img-top" alt="..." />
+          <img src="temperate.jpg" class="card-img-top" alt="Temperate forest with autumn-colored leaves" />
           <div class="card-body">
             <h5 class="card-title">Temperate</h5>
             <p class="card-text">
@@ -263,11 +265,11 @@
           </div>
         </div>
       </div>
-
+ 
       <h1>Mountains</h1>
       <div class="card-group">
         <div class="card">
-          <img src="everest.jpg" class="card-img-top" alt="..." />
+          <img src="everest.jpg" class="card-img-top" alt="Snow-covered peak of Mount Everest" />
           <div class="card-body">
             <h5 class="card-title">Mount Everest</h5>
             <p class="card-text">
@@ -278,7 +280,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="fuji.jpg" class="card-img-top" alt="..." />
+          <img src="fuji.jpg" class="card-img-top" alt="Symmetrical snow-capped peak of Mount Fuji" />
           <div class="card-body">
             <h5 class="card-title">Mount Fuji</h5>
             <p class="card-text">
@@ -289,7 +291,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="kili.jpg" class="card-img-top" alt="..." />
+          <img src="kili.jpg" class="card-img-top" alt="Mount Kilimanjaro rising above the grasslands" />
           <div class="card-body">
             <h5 class="card-title">Mount Kilimanjaro</h5>
             <p class="card-text">
@@ -300,11 +302,11 @@
           </div>
         </div>
       </div>
-
+ 
       <h1>Oceans</h1>
       <div class="card-group">
         <div class="card">
-          <img src="pacific.jpg" class="card-img-top" alt="..." />
+          <img src="pacific.jpg" class="card-img-top" alt="Wide view of the open Pacific Ocean" />
           <div class="card-body">
             <h5 class="card-title">Pacific</h5>
             <p class="card-text">
@@ -314,7 +316,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="atlantic.jpg" class="card-img-top" alt="..." />
+          <img src="atlantic.jpg" class="card-img-top" alt="Waves along the Atlantic Ocean coastline" />
           <div class="card-body">
             <h5 class="card-title">Atlantic</h5>
             <p class="card-text">
@@ -324,7 +326,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="indian.jpg" class="card-img-top" alt="..." />
+          <img src="indian.jpg" class="card-img-top" alt="Warm turquoise waters of the Indian Ocean" />
           <div class="card-body">
             <h5 class="card-title">Indian</h5>
             <p class="card-text">
@@ -335,11 +337,11 @@
           </div>
         </div>
       </div>
-
+ 
       <h1>Wildlife</h1>
       <div class="card-group">
         <div class="card">
-          <img src="panda.jpg" class="card-img-top" alt="..." />
+          <img src="panda.jpg" class="card-img-top" alt="Giant panda eating bamboo" />
           <div class="card-body">
             <h5 class="card-title">Giant Panda</h5>
             <p class="card-text">
@@ -350,7 +352,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="lion.jpg" class="card-img-top" alt="..." />
+          <img src="lion.jpg" class="card-img-top" alt="Lion with a full mane resting in the grass" />
           <div class="card-body">
             <h5 class="card-title">Lion</h5>
             <p class="card-text">
@@ -361,7 +363,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="elephant.jpg" class="card-img-top" alt="..." />
+          <img src="elephant.jpg" class="card-img-top" alt="African elephant with large ears and tusks" />
           <div class="card-body">
             <h5 class="card-title">African Elephant</h5>
             <p class="card-text">
@@ -373,7 +375,7 @@
         </div>
       </div>
     </div>
-
+ 
     <div class="container" id="about">
       <h3>About GreenNest</h3>
       <p>
@@ -386,45 +388,53 @@
         preserve our planet for future generations.
       </p>
     </div>
-
+ 
     <div id="contact" class="py-5">
       <div class="container">
         <h2 class="text-center mb-3">Contact us</h2>
         <p class="text-center mb-5">
           Have a question, suggestion, or environmental idea to share?
         </p>
-
+ 
         <div class="row justify-content-center">
           <div class="col-12 col-md-8 col-lg-6">
             <form>
               <div class="mb-3">
-                <label class="form-label">Full Name</label>
+                <label class="form-label" for="fullName">Full Name</label>
                 <input
                   type="text"
                   class="form-control"
+                  id="fullName"
+                  name="fullName"
                   placeholder="Enter your name"
                 />
               </div>
               <div class="mb-3">
-                <label class="form-label">Email Address</label>
+                <label class="form-label" for="email">Email Address</label>
                 <input
                   type="email"
                   class="form-control"
+                  id="email"
+                  name="email"
                   placeholder="Enter your email"
                 />
               </div>
               <div class="mb-3">
-                <label class="form-label">Subject</label>
+                <label class="form-label" for="subject">Subject</label>
                 <input
                   type="text"
                   class="form-control"
+                  id="subject"
+                  name="subject"
                   placeholder="Enter subject"
                 />
               </div>
               <div class="mb-3">
-                <label class="form-label">Message</label>
+                <label class="form-label" for="message">Message</label>
                 <textarea
                   class="form-control"
+                  id="message"
+                  name="message"
                   rows="5"
                   placeholder="Write your message"
                 ></textarea>
@@ -439,7 +449,7 @@
         </div>
       </div>
     </div>
-
+ 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
@@ -447,3 +457,4 @@
     ></script>
   </body>
 </html>
+ 
